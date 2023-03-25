@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
-          REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
+          REFRESH_TOKENS: ${{ 72270d8d16fc4961a4975da3889b24f9 }}
           GP_TOKEN: ${{ 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}}
           PUSH_TYPES: ''
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
